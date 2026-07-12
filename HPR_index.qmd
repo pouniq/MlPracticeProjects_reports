@@ -12,10 +12,7 @@ dir: 'rtl'
 - در این دیتاست ما دیتا تارگت ما cap شده به این معنا که ماکزیمم مقداری که قیمت ما میگیره 500k هست و این هم محدودیتی برای مدل ما حساب میشه و مدل ما به خوبی دیتای ما می باشد.
 
 
-```{python}
-for col in df.columns:
-    print(df[col].value_counts().head(20))
-```
+
 
 
 ما کارهای preprocessing رو بعد از train_test_split انجام میدیم تا از مشکل data leakage جلوگیری کنیم.
